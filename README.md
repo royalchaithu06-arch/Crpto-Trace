@@ -35,7 +35,7 @@ copy .env.example .env  # Windows; on macOS/Linux use: cp .env.example .env
 python seed.py
 uvicorn app.main:app --reload
 ```
-API docs: http://127.0.0.1:8000/docs
+API docs: https://crypto-trace-vault.base44.app
 
 Demo account (created by `seed.py`):
 - Email: `admin@cryptotrace.local`
